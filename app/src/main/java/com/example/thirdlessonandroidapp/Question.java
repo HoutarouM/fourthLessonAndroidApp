@@ -3,38 +3,50 @@ package com.example.thirdlessonandroidapp;
 import java.util.ArrayList;
 
 public class Question {
-    private String questionText;
+    public static ArrayList<Question> questions = new ArrayList<>();
 
-    private ArrayList<String> answers = new ArrayList<>();
 
+    private int questionText;
+    private ArrayList<Integer> answers = new ArrayList<>();
     private int imageId;
-
     private String hint;
-
     private int correctAnswerId;
 
 
-    public Question(String questionText, ArrayList<String> answers, int imageId, String hint, int correctAnswerId) {
+    public Question(int questionText, int imageId, int odpA, int odpB, int odpC, String hint, int correctAnswerId) {
         this.questionText = questionText;
-        this.answers = answers;
+
+//        add answers
+        answers.add(odpA);
+        answers.add(odpB);
+        answers.add(odpC);
+
         this.imageId = imageId;
         this.hint = hint;
         this.correctAnswerId = correctAnswerId;
     }
 
-    public String getQuestionText() {
+    public static void addQuestions() {
+        questions.add(new Question(R.string.Question, R.drawable.photo, R.string.everest, R.string.tatry, R.string.wielka_racza, "Gora", 2));
+        questions.add(new Question(R.string.Question2, R.drawable.git, R.string.git, R.string.github, R.string.gitlab, "g", 1));
+        questions.add(new Question(R.string.Question3, R.drawable.python, R.string.python, R.string.js, R.string.rust, "r", 1));
+        questions.add(new Question(R.string.Question4, R.drawable.mvc, R.string.warstwowa, R.string.mikroserwisy, R.string.mvc, "m", 3));
+        questions.add(new Question(R.string.Question5, R.drawable.react, R.string.react, R.string.angular, R.string.vue, "r", 1));
+    }
+
+    public int getQuestionText() {
         return questionText;
     }
 
-    public void setQuestionText(String questionText) {
+    public void setQuestionText(int questionText) {
         this.questionText = questionText;
     }
 
-    public ArrayList<String> getAnswers() {
+    public ArrayList<Integer> getAnswers() {
         return answers;
     }
 
-    public void setAnswers(ArrayList<String> answers) {
+    public void setAnswers(ArrayList<Integer> answers) {
         this.answers = answers;
     }
 

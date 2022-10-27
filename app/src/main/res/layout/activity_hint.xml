@@ -19,23 +19,14 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="To gora w polsce.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent efficitur diam mauris, quis sollicitudin justo egestas ac. Donec ullamcorper dolor nulla, id sodales felis blandit eu. Pellentesque porta eros ut nulla venenatis dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent commodo lacinia purus laoreet consectetur. Sed id purus at dolor fringilla lacinia non et metus. Vestibulum volutpat, quam sit amet molestie varius, ligula elit dapibus risus, sit amet faucibus arcu sapien in turpis. Pellentesque gravida eu augue vel lacinia. Proin feugiat blandit tincidunt. In ut purus orci. Quisque non ultrices ex, ac semper est. Nunc mattis quis felis sit amet consequat. Ut imperdiet nulla vitae sapien vulputate accumsan at viverra nulla.
-
-        Cras metus ex, rhoncus at fringilla ut, sollicitudin in lorem. Vestibulum at aliquet ligula. Nulla tempor consequat justo, in euismod odio blandit eget. Suspendisse laoreet sollicitudin dolor, nec suscipit ante hendrerit cursus. Phasellus varius vel ipsum eu dapibus. Vestibulum maximus nec felis at congue. Suspendisse egestas tellus vitae sapien accumsan, at imperdiet turpis placerat. Maecenas dictum maximus lobortis. Curabitur purus enim, imperdiet ut elementum id, ornare nec orci. Sed a sem sit amet orci consectetur pulvinar sed in est. Donec feugiat gravida neque, eget elementum libero mattis in. Phasellus sodales sapien ut volutpat consectetur. Pellentesque vel nisl vel tellus placerat ullamcorper. Vestibulum sagittis elit augue, vel accumsan mauris vulputate eget.
-
-        Morbi in gravida nisl. Aliquam erat volutpat. Nullam eget tortor ut ligula hendrerit rutrum. Maecenas vulputate hendrerit pharetra. Praesent dapibus ac nibh nec lobortis. Sed mollis, nibh eu malesuada ullamcorper, velit sem mattis est, nec molestie enim mauris vitae mi. Sed ultrices ante eu vulputate sollicitudin. Nunc et neque eu orci vulputate eleifend. Curabitur volutpat laoreet dolor. Phasellus imperdiet mauris sed leo volutpat pretium. Duis at purus condimentum, maximus lorem nec, ultrices sem. Mauris quis diam tortor. Morbi laoreet ultricies lectus ornare imperdiet. Nam pharetra consectetur ipsum vitae dapibus.
-
-        Nam diam sapien, condimentum quis ultrices at, ultricies lobortis purus. Ut tempus mauris quis maximus fringilla. Proin et tristique erat. Morbi dui ante, sollicitudin eu dolor eget, malesuada tempus lacus. Curabitur pharetra vehicula ex quis aliquam. Mauris faucibus libero quis velit pretium, eget malesuada nulla accumsan. Donec porttitor nisi nec elit dictum, sit amet volutpat nibh semper.
-
-        Sed velit ex, rutrum sed auctor in, ultrices non urna. Sed posuere purus consectetur libero aliquam, quis elementum tellus rutrum. Etiam elit mauris, luctus vel magna id, facilisis vulputate quam. Donec urna ipsum, fermentum et turpis in, sollicitudin rhoncus lorem. Nunc enim elit, tempus ut sollicitudin id, porttitor ac lacus. Integer ut pulvinar felis, at pharetra neque. Vestibulum eu leo vitae ipsum dictum fringilla quis quis sapien. Maecenas nec congue enim. Maecenas id risus viverra, feugiat sapien vitae, porta massa. Suspendisse potenti. Quisque consequat malesuada odio, vitae aliquam tortor volutpat vel. Mauris vehicula, metus a luctus porttitor, erat metus euismod risus, nec dignissim sem tellus et sapien."
+                android:text="@string/hint_text"
                 android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Powrot" />
+                android:text="@string/return_btn" />
         </LinearLayout>
     </ScrollView>
 
