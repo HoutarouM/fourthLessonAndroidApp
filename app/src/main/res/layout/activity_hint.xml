@@ -6,6 +6,25 @@
     android:orientation="vertical"
     tools:context=".HintActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/podpowiedz_do_pytania"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/qTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/areYouSure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Podpowiedz zmniejszy liczbe twoich punkow" />
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -15,12 +34,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/hintTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/hint_text"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:visibility="invisible" />
 
             <Button
                 android:id="@+id/button3"
